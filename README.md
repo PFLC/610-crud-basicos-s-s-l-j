@@ -1,4 +1,8 @@
+CRUD es el acrónimo de Create (Crear), Read (Leer), Update (Actualizar) y Delete (Borrar).Es un concepto que se utiliza para describir las cuatro operaciones que se pueden realizar en las bases de datos y sistemas de gestion de informacion.
 
+Estas operaciones pueden a los usuarios crear nuevos datos, leer los exstentes, actulizarlos y eliminarlos.
+
+La idea es que cualquier sistema de informacion que interactue con datos proporcione funcionalidades para crer, leer, actualizar y eliminar dichos datos.
 # Aplicación CRUD de PHP
 
 Este repositorio contiene una aplicación PHP CRUD (Create, Read, Update, Delete) simple. Es una demostración básica de cómo integrar PHP con una base de datos MySQL para gestionar datos de usuarios. La aplicación permite a los usuarios agregar, ver, editar y eliminar información de usuario.
