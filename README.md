@@ -68,6 +68,10 @@ para prevenir ataques de inyección SQL.
 
 ---
 
+Siéntete libre de contribuir a este proyecto o sugerir mejoras. Para cualquier consulta o problema, por favor abre un issue en este repositorio.
+
+---
+
 Teddy Sun LAMP se refiere a un conjunto de tecnologías para el desarrollo web que incluye Linux, Apache, MySQL y PHP (también conocido como LAMP). Aquí te proporciono un ejemplo básico de un CRUD utilizando Teddy Sun LAMP:
 
 1. Configuración de la base de datos MySQL:
@@ -86,8 +90,3 @@ Funcionalidad: Procesar el formulario actualizado y actualizar los datos corresp
 d. Delete (Eliminar):
 Página: delete.php (confirmación de eliminación).
 Funcionalidad: Eliminar los datos seleccionados de la base de datos.
-
----
-
-Siéntete libre de contribuir a este proyecto o sugerir mejoras. Para cualquier consulta o problema, por favor abre un issue en este repositorio.
-
