@@ -1,4 +1,8 @@
+CRUD es el acrónimo de Create (Crear), Read (Leer), Update (Actualizar) y Delete (Borrar).Es un concepto que se utiliza para describir las cuatro operaciones que se pueden realizar en las bases de datos y sistemas de gestion de informacion.
 
+Estas operaciones pueden a los usuarios crear nuevos datos, leer los exstentes, actulizarlos y eliminarlos.
+
+La idea es que cualquier sistema de informacion que interactue con datos proporcione funcionalidades para crer, leer, actualizar y eliminar dichos datos.
 # Aplicación CRUD de PHP
 
 Este repositorio contiene una aplicación PHP CRUD (Create, Read, Update, Delete) simple. Es una demostración básica de cómo integrar PHP con una base de datos MySQL para gestionar datos de usuarios. La aplicación permite a los usuarios agregar, ver, editar y eliminar información de usuario.
@@ -59,9 +63,30 @@ Este repositorio contiene una aplicación PHP CRUD (Create, Read, Update, Delete
 
 ## Nota de Seguridad
 
-Esta aplicación es una demostración básica y no implementa medidas avanzadas de seguridad. Es recomendable utilizar declaraciones preparadas (prepared statements) u ORM para las interacciones con la base de datos para prevenir ataques de inyección SQL.
+Esta aplicación es una demostración básica y no implementa medidas avanzadas de seguridad. Es recomendable utilizar declaraciones preparadas (prepared statements) u ORM para las interacciones con la base de datos
+para prevenir ataques de inyección SQL.
 
 ---
 
 Siéntete libre de contribuir a este proyecto o sugerir mejoras. Para cualquier consulta o problema, por favor abre un issue en este repositorio.
 
+---
+
+Teddy Sun LAMP se refiere a un conjunto de tecnologías para el desarrollo web que incluye Linux, Apache, MySQL y PHP (también conocido como LAMP). Aquí te proporciono un ejemplo básico de un CRUD utilizando Teddy Sun LAMP:
+
+1. Configuración de la base de datos MySQL:
+Asegúrate de tener una base de datos MySQL configurada con una tabla adecuada para almacenar los datos que planeas manipular con el CRUD. Por ejemplo, podrías tener una tabla llamada usuarios con campos como id, nombre, apellido, etc.
+
+2. Creación de archivos PHP para el CRUD:
+a. Create (Crear):
+Página: create.php (formulario para ingresar nuevos datos).
+Funcionalidad: Procesar el formulario y agregar los datos a la base de datos.
+b. Read (Leer):
+Página: read.php (mostrar los datos existentes).
+Funcionalidad: Consultar la base de datos y mostrar los datos en una tabla.
+c. Update (Actualizar):
+Página: update.php (formulario prellenado con los datos existentes para ser modificados).
+Funcionalidad: Procesar el formulario actualizado y actualizar los datos correspondientes en la base de datos.
+d. Delete (Eliminar):
+Página: delete.php (confirmación de eliminación).
+Funcionalidad: Eliminar los datos seleccionados de la base de datos.
